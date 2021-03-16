@@ -1,0 +1,213 @@
+body {
+    padding:0;
+}
+#head {
+    background-image: url(images/cool-background.png);
+    
+    
+}
+
+.name{
+    padding: 30px 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+    
+}
+
+.navbar-nav{
+    padding : 0px 80px 80px;
+}
+.title{
+    text-align: left;
+    margin-left: 10%;
+}
+.display-4{
+    font-family: 'Rubik', sans-serif;
+    margin-top:70px;
+    margin-bottom: 40px;
+    width: 80%;
+}
+.lead{
+    font-family: 'Akaya Telivigala', cursive;
+    margin-bottom: 0px;
+    width: 80%;
+    /* font-family: 'Playfair Display', serif; */
+}
+hr.my-4{
+    width: 80%;
+}
+.free{
+    width: 80%;
+}
+.btn{
+    margin-bottom: 20px;
+}
+
+/* tech */
+#features {
+    /* padding:7% 0 7%; */
+    /* color: #ef8172; */
+    text-align: center;
+    background-color: #fff;
+    z-index:1;
+    position: relative;
+    /* background-image: linear-gradient(to right, #f5f6fa, #f9f9f9); */
+}
+.feature-box {
+    padding :0 9%;
+}
+h3 {
+    color:#000;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 1.5rem;
+   
+}
+#features p{
+    color: #8f8f8f;
+    font-weight: 500;
+}
+.use{
+    text-align: center;
+    margin : 5% 0;
+}
+.icons{
+    margin-bottom:1rem;
+    width:100px;
+    height: 100px;
+    object-fit: cover;
+
+}
+/* projects */
+#projects{
+    /* background-image: url(images/cool-background3.png);
+    background-color: 	#F5F5DC; */
+    background-image: linear-gradient(to right, #3498dbd5, #297fb9d3),
+    url(images/10.jpg);
+}
+#projects h1{
+    text-align: center;
+    padding: 5%;
+    font-family: 'Montserrat', sans-serif;
+    color:blanchedalmond;
+}
+.row {
+    margin-left: 12px;
+    margin-right: 12px;
+    /* margin-bottom: 24px; */
+    padding-bottom: 60px;
+}
+.card-body{
+    background-image: linear-gradient(to right, #f5f6fa, #f9f9f9);  
+}
+.card-title, .card-footer{
+    text-align: center;
+}
+.card-text{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+/* footer section */
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+#footer h2{
+    color:#66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+#footer h3{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    /* color:#11999E;  */
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color:#EAF6F6
+}
+.contact-msg {
+    width:40%;
+    margin:40px auto 60px;
+}
+.social-icon{
+    margin:20px 10px;
+}
+@media (max-width:1028px) {
+    #title {
+        text-align:center;
+    }
+    .title-image {
+        position: static;
+        transform:rotate(0);
+    }
+}
+#footer .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family:'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+#footer .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .middle{
+      border-radius: 0;
+      margin-bottom: -1px;
+  }
+  .bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .fa,
+.fas {
+  font-family: 'FontAwesome';
+}
+
+/* font-family: 'Akaya Telivigala', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Rubik', sans-serif; */
